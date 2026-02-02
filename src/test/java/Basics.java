@@ -1,6 +1,8 @@
 import Files.Payload;
+import Files.Reusable_Methods;
 import io.restassured.path.json.JsonPath;
 import io.restassured.RestAssured;
+import org.testng.Assert;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
@@ -50,9 +52,13 @@ public class Basics {
                 .when().get("maps/api/place/get/json")
                 .then().assertThat().log().all().statusCode(200).extract().response().asString();
 
-        JsonPath js1 = new JsonPath(getPlaceResponse);//for parsing json
+//        JsonPath js1 = new JsonPath(getPlaceResponse);//for parsing json
+        JsonPath js1=Reusable_Methods.rawToJson(getPlaceResponse);
         String actualAddress=js1.getString("address");
         System.out.println(actualAddress);
         //Cucumber Junit/TestNG
+        Assert.assertEquals(actualAddress,newAddress);
+
     }
 }
+//Cucumber Junit/TestNG
