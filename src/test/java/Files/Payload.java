@@ -24,7 +24,7 @@ public class Payload {
               "\n" +
               "\"dashboard\": {\n" +
               "\n" +
-              "\"purchaseAmount\": 910,\n" +
+              "\"purchaseAmount\": 5910,\n" +
               "\n" +
               "\"website\": \"rahulshettyacademy.com\"\n" +
               "\n" +
@@ -76,4 +76,16 @@ public class Payload {
               "\n" +
               "}";
     }
+    public static String AddBook(){
+        String payload="{\n" +
+                "\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\"bcd\",\n" +
+                "\"aisle\":\"227ritesh\",\n" +
+                "\"author\":\"John foe\"\n" +
+                "}\n";
+        return payload;
+    }
+
+
 }

@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b30adc9-1bbb-4ef4-8ffd-ce19781856ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ComplexJsonParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Files/Reusable_Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Files/DynamicJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SumValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Files/Payload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +56,14 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ChildBranch",
+    "TestNG.DynamicJson.addBook.executor": "Run",
+    "TestNG.DynamicJson.executor": "Run",
+    "TestNG.SumValidation.sumOfCourses.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComplexJsonParse">
+  <component name="RunManager" selected="TestNG.DynamicJson">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics" />
       <module name="RahulShettyRestAssuredProject" />
@@ -80,8 +78,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RahulShettyRestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Files" />
+      <option name="MAIN_CLASS_NAME" value="Files.DynamicJson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RahulShettyRestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Files" />
+      <option name="MAIN_CLASS_NAME" value="Files.DynamicJson" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumValidation.sumOfCourses" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RahulShettyRestAssuredProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumValidation" />
+      <option name="METHOD_NAME" value="sumOfCourses" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicJson" />
+        <item itemvalue="TestNG.DynamicJson.addBook" />
+        <item itemvalue="TestNG.SumValidation.sumOfCourses" />
         <item itemvalue="Application.ComplexJsonParse" />
         <item itemvalue="Application.Basics" />
       </list>
