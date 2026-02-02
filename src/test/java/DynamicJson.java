@@ -1,4 +1,5 @@
-package Files;
+import Files.Payload;
+import Files.Reusable_Methods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.annotations.Test;
@@ -15,7 +16,7 @@ public class DynamicJson {
                 .post("Library/Addbook.php").
                 then().log().all().assertThat().statusCode(200)
                 .extract().response().asString();
-       JsonPath js=Reusable_Methods.rawToJson(response);
+       JsonPath js= Reusable_Methods.rawToJson(response);
        String id=js.get("ID");
         System.out.println(id);
     }

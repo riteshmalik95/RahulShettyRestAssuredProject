@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b30adc9-1bbb-4ef4-8ffd-ce19781856ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Files/DynamicJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SumValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Files/Payload.java" afterDir="false" />
-    </list>
+    <list default="true" id="2b30adc9-1bbb-4ef4-8ffd-ce19781856ae" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +54,7 @@
     "TestNG.DynamicJson.addBook.executor": "Run",
     "TestNG.DynamicJson.executor": "Run",
     "TestNG.SumValidation.sumOfCourses.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "NewBranch",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -82,12 +77,12 @@
       <module name="RahulShettyRestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Files.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Files" />
-      <option name="MAIN_CLASS_NAME" value="Files.DynamicJson" />
+      <option name="MAIN_CLASS_NAME" value="DynamicJson" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,12 +94,12 @@
       <module name="RahulShettyRestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Files.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Files" />
-      <option name="MAIN_CLASS_NAME" value="Files.DynamicJson" />
+      <option name="MAIN_CLASS_NAME" value="DynamicJson" />
       <option name="METHOD_NAME" value="addBook" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
