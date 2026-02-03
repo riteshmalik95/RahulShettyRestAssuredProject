@@ -1,16 +1,13 @@
-package Files;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
-
-
-
+import Files.Reusable_Methods;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
+
 
 public class Basics1 {
     public static void main(String[] args) throws IOException {
@@ -31,6 +28,7 @@ public class Basics1 {
         String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
 
                 //how to send Static Json Files(PayLoad) directly into Post method of Rest Assured.
+                //Content of the file to String-> content of the file can be converted into Byte-> Byte data to String
                 .body(new String(Files.readAllBytes(Paths.get("E:/Ravi Sir Github/SDM_IET/SDM/addPlace.json"))))
                 .when().post("maps/api/place/add/json")
                 .then().assertThat().statusCode(200).body("scope", equalTo("APP")).header("Server", "Apache/2.4.52 (Ubuntu)")
@@ -64,7 +62,7 @@ public class Basics1 {
                 .then().assertThat().log().all().statusCode(200).extract().response().asString();
 
 //        JsonPath js1 = new JsonPath(getPlaceResponse);//for parsing json
-        JsonPath js1=Reusable_Methods.rawToJson(getPlaceResponse);
+        JsonPath js1= Reusable_Methods.rawToJson(getPlaceResponse);
         String actualAddress=js1.getString("address");
         System.out.println(actualAddress);
         //Cucumber Junit/TestNG
