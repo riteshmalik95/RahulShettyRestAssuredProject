@@ -87,6 +87,21 @@ public class Payload {
                 "}\n";
         return payload;
     }
+    public static String CreateBug(){
+        String payload="{\n" +
+                "    \"fields\": {\n" +
+                "       \"project\":\n" +
+                "       {\n" +
+                "          \"key\": \"SCRUM\"\n" +
+                "       },\n" +
+                "       \"summary\": \"Links are not working-RestAssured Automation\",\n" +
+                "       \"issuetype\": {\n" +
+                "          \"name\": \"Bug\"\n" +
+                "       }\n" +
+                "   }\n" +
+                "}";
+        return payload;
+    }
 
 
 }
