@@ -94,7 +94,7 @@ public class Payload {
                 "       {\n" +
                 "          \"key\": \"SCRUM\"\n" +
                 "       },\n" +
-                "       \"summary\": \"Links are not working-RestAssured Automation\",\n" +
+                "       \"summary\": \"Login Buttons are not working-RestAssured Automation\",\n" +
                 "       \"issuetype\": {\n" +
                 "          \"name\": \"Bug\"\n" +
                 "       }\n" +
